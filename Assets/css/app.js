@@ -9,9 +9,10 @@ var questions = [
         correctAnswer: "Blue",
     },
     {
-        question: "How many hours a day does an elephant eat?"
-        answers: ["20", "2", "15", "1"]
-        correctAnswer: "20",
+        question: "The color of a baboon's buttocks can turn which color?"
+        answers: ["blue", "red", "orange", "turquoise"]
+        correctAnswer: "red",
+        image: "Assets/images/africanmonkeygif.gif",
     },
     {
         question: "What are baby sharks called?"
@@ -32,6 +33,7 @@ var questions = [
         question: "How long do Gorillas live?"
         answers: ["Roughly 10 years", "Roughly 35 years", "Roughly 23 years", "Roughly 50 years"]
         correctAnswer: "Roughly 35 years",
+        image: "Assets/images/gorilla.gif",
     },
 
 ];
