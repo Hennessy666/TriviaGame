@@ -171,11 +171,11 @@ var game = {
   },
 
   reset: function () {
-    this.currentQuestion = 0;
-    this.counter = countStartNumber;
-    this.correct = 0;
-    this.incorrect = 0;
-    this.loadQuestion();
+    game.currentQuestion = 0;
+    game.counter = countStartNumber;
+    game.correct = 0;
+    game.incorrect = 0;
+    game.loadQuestion();
   },
 };
 
