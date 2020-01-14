@@ -1,67 +1,68 @@
-body {
-    background-image: url("safaribackground.jpg");
-    text-align: center; 
-}
+
+  html,
+  body {
+    height: 100%;
+  }
   
-  button:hover {
-    transform: scale(1.1);
-    border: 3px black solid;
-    box-shadow: 0 0 1rem #81D2C7;
-    background-color: #81D2C7;
-    color: black;
+  body {
+    text-align: center;
+    background-image: url("/Assets/images/safari.jpg");
+  }
+  
+  #wrapper {
+    width: 960px;
+    height: 95%;
+    box-sizing: border-box;
+    margin: 2.5% auto;
+    background-color: #fff17a;
+  }
+  
+  #sub-wrapper {
+    position: relative;
+    top: 15%;
+  }
+  
+  button {
+    display: block;
+    width: 50%;
+    height: 20%;
+    margin: 0 auto;
+    font-size: 42px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+  }
+  
+  img {
+    height: 200px;
+  }
+  
+  h1 {
+    padding-top: 2.5%;
+    font-family: Geo, sans-serif;
+    font-size: 6.5em;
+    font-weight: bold;
+    color: blue;
+  }
+  
+  h2 {
+    margin-bottom: 25px;
+    font-size: 35px;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+    font-size: 25px;
   }
   
   #start {
-    vertical-align: middle;
-    transform: translate(0, 150%);
-    height: 100px;
-    width: 100px;
-    font-size: 40px !important;
+    margin-top: 10%;
+    background: pink;
+    border: 2px solid blue;
   }
   
-  #content {
-    position: relative;
-    height: 600px;
-    border: 5px #416788 solid;
-    border-radius: 25px;
-    margin: 50px auto;
-    text-align: center;
-    box-shadow: 3px 3px 20px 6px #ccc !important;
-    padding-bottom: 20px;
+  button:hover {
+    background: pink;
+    border: 2px solid blue;
   }
   
-  #content::after {
-    content: "";
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    opacity: .4;
-  }
-  
-  #question-area {
-    padding-left: 10px;
-    padding-right: 10px
-  }
-  
-  .message-content {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  
-  
-  /* For smaller screens */
-  @media screen and (max-width: 640px) {
-    #content {
-      height: 700px;
-    }
-  
-    img {
-      height: 200px;
-      width: 250px;
-    }
-  }
